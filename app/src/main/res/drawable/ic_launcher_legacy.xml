@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Legacy launcher icon for older Android versions -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Background - Orange -->
+    <path android:fillColor="#FF9500" android:pathData="M0,0h48v48H0z"/>
+
+    <!-- Calculator body - White rounded rectangle -->
+    <path android:fillColor="#FFFFFF" android:pathData="M8,4h32c2.2,0 4,1.8 4,4v32c0,2.2 -1.8,4 -4,4H8c-2.2,0 -4,-1.8 -4,-4V8C4,5.8 5.8,4 8,4z"/>
+
+    <!-- Display - Light gray -->
+    <path android:fillColor="#F5F5F7" android:pathData="M10,8h28c1.1,0 2,0.9 2,2v6c0,1.1 -0.9,2 -2,2H10c-1.1,0 -2,-0.9 -2,-2v-6C8,8.9 8.9,8 10,8z"/>
+
+    <!-- Button grid -->
+    <!-- Row 1 -->
+    <path android:fillColor="#E5E5EA" android:pathData="M10,20h6v4h-6z"/>
+    <path android:fillColor="#E5E5EA" android:pathData="M18,20h6v4h-6z"/>
+    <path android:fillColor="#E5E5EA" android:pathData="M26,20h6v4h-6z"/>
+    <path android:fillColor="#FF9500" android:pathData="M34,20h6v4h-6z"/>
+
+    <!-- Row 2 -->
+    <path android:fillColor="#F5F5F7" android:pathData="M10,26h6v4h-6z"/>
+    <path android:fillColor="#F5F5F7" android:pathData="M18,26h6v4h-6z"/>
+    <path android:fillColor="#F5F5F7" android:pathData="M26,26h6v4h-6z"/>
+    <path android:fillColor="#FF9500" android:pathData="M34,26h6v4h-6z"/>
+
+    <!-- Row 3 -->
+    <path android:fillColor="#F5F5F7" android:pathData="M10,32h6v4h-6z"/>
+    <path android:fillColor="#F5F5F7" android:pathData="M18,32h6v4h-6z"/>
+    <path android:fillColor="#F5F5F7" android:pathData="M26,32h6v4h-6z"/>
+    <path android:fillColor="#FF9500" android:pathData="M34,32h6v4h-6z"/>
+
+    <!-- Row 4: 0 and = -->
+    <path android:fillColor="#F5F5F7" android:pathData="M10,38h14v4h-14z"/>
+    <path android:fillColor="#F5F5F7" android:pathData="M26,38h6v4h-6z"/>
+    <path android:fillColor="#FF9500" android:pathData="M34,38h6v4h-6z"/>
+
+</vector>

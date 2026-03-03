@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary Colors -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +8,38 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Calculator Colors -->
+    <color name="display_background">#F5F5F7</color>
+    <color name="keypad_background">#FFFFFF</color>
+
+    <!-- Button Colors -->
+    <color name="btn_number_bg">#FFFFFF</color>
+    <color name="btn_number_text">#000000</color>
+    <color name="btn_operator_bg">#E5E5EA</color>
+    <color name="btn_operator_text">#000000</color>
+    <color name="btn_equal_bg">#FF9500</color>
+    <color name="btn_equal_text">#FFFFFF</color>
+    <color name="btn_function_bg">#E5E5EA</color>
+    <color name="btn_function_text">#000000</color>
+    <color name="btn_scientific_bg">#F5F5F7</color>
+    <color name="btn_scientific_text">#FF9500</color>
+
+    <!-- Text Colors -->
+    <color name="expression_text">#000000</color>
+    <color name="result_text">#000000</color>
+    <color name="error_text">#FF3B30</color>
+
+    <!-- Cursor Color -->
+    <color name="cursor_blue">#007AFF</color>
+
+    <!-- History Colors -->
+    <color name="history_bg">#FFFFFF</color>
+    <color name="history_item_bg">#F5F5F7</color>
+    <color name="history_divider">#E5E5EA</color>
+
+    <!-- Mode Selector -->
+    <color name="mode_selector_bg">#FFFFFF</color>
+    <color name="mode_selector_selected">#FF9500</color>
+    <color name="mode_selector_text">#000000</color>
 </resources>

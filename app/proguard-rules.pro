@@ -19,3 +19,7 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Keep exp4j classes
+-keep class net.objecthunter.exp4j.** { *; }
+-keepclassmembers class net.objecthunter.exp4j.** { *; }

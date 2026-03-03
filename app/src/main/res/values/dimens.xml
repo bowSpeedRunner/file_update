@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button Sizes -->
+    <dimen name="btn_circle_size">72dp</dimen>
+    <dimen name="btn_capsule_height">44dp</dimen>
+    <dimen name="btn_capsule_min_width">64dp</dimen>
+    <dimen name="btn_text_size">28sp</dimen>
+    <dimen name="btn_scientific_text_size">18sp</dimen>
+    <dimen name="btn_corner_radius">36dp</dimen>
+
+    <!-- Display Area -->
+    <dimen name="display_padding">16dp</dimen>
+    <dimen name="expression_text_size">48sp</dimen>
+    <dimen name="result_text_size">32sp</dimen>
+    <dimen name="cursor_width">2dp</dimen>
+
+    <!-- Keypad Area -->
+    <dimen name="keypad_padding">12dp</dimen>
+    <dimen name="keypad_spacing">12dp</dimen>
+    <dimen name="scientific_keypad_spacing">8dp</dimen>
+
+    <!-- History -->
+    <dimen name="history_item_height">72dp</dimen>
+    <dimen name="history_item_padding">16dp</dimen>
+    <dimen name="history_text_size">16sp</dimen>
+    <dimen name="history_result_text_size">20sp</dimen>
+
+    <!-- Bottom Sheet -->
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_handle_width">36dp</dimen>
+    <dimen name="bottom_sheet_handle_height">4dp</dimen>
+
+    <!-- Mode Selector -->
+    <dimen name="mode_selector_width">200dp</dimen>
+    <dimen name="mode_selector_item_height">48dp</dimen>
+
+    <!-- Animation Durations -->
+    <integer name="anim_fade_out_duration">200</integer>
+    <integer name="anim_bottom_sheet_open">300</integer>
+    <integer name="anim_bottom_sheet_expand">250</integer>
+    <integer name="anim_button_press">100</integer>
+    <integer name="anim_cursor_blink">500</integer>
+</resources>

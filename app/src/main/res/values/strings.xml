@@ -1,3 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Calculator</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_basic">Basic</string>
+    <string name="mode_scientific">Scientific</string>
+
+    <!-- Button Labels -->
+    <string name="btn_clear">C</string>
+    <string name="btn_negate">+/−</string>
+    <string name="btn_percent">%</string>
+    <string name="btn_divide">÷</string>
+    <string name="btn_multiply">×</string>
+    <string name="btn_subtract">−</string>
+    <string name="btn_add">+</string>
+    <string name="btn_equal">=</string>
+    <string name="btn_decimal">.</string>
+    <string name="btn_delete">⌫</string>
+
+    <!-- Scientific Functions -->
+    <string name="btn_sin">sin</string>
+    <string name="btn_cos">cos</string>
+    <string name="btn_tan">tan</string>
+    <string name="btn_ln">ln</string>
+    <string name="btn_log">log</string>
+    <string name="btn_sqrt">√</string>
+    <string name="btn_power">^</string>
+    <string name="btn_factorial">!</string>
+    <string name="btn_pi">π</string>
+    <string name="btn_e">e</string>
+    <string name="btn_left_paren">(</string>
+    <string name="btn_right_paren">)</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_empty">No calculation history</string>
+    <string name="history_edit">Edit</string>
+    <string name="history_done">Done</string>
+    <string name="history_select_all">Select All</string>
+    <string name="history_deselect_all">Deselect All</string>
+    <string name="history_delete">Delete</string>
+    <string name="history_delete_confirm">Delete selected records?</string>
+    <string name="history_delete_all_confirm">Delete all history?</string>
+    <string name="history_cancel">Cancel</string>
+
+    <!-- Errors -->
+    <string name="error_label">Error</string>
+    <string name="error_divide_by_zero">Cannot divide by zero</string>
+    <string name="error_invalid_expression">Invalid expression</string>
+    <string name="error_overflow">Result too large</string>
 </resources>

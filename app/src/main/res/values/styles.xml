@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/btn_equal_bg</item>
+        <item name="colorPrimaryDark">@color/display_background</item>
+        <item name="colorAccent">@color/btn_equal_bg</item>
+        <item name="android:statusBarColor">@color/display_background</item>
+        <item name="android:navigationBarColor">@color/keypad_background</item>
+        <item name="android:windowBackground">@color/keypad_background</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="CalculatorButton" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="CalculatorButton.Number" parent="CalculatorButton">
+        <item name="android:background">@drawable/btn_number_bg</item>
+        <item name="android:textColor">@color/btn_number_text</item>
+    </style>
+
+    <style name="CalculatorButton.Operator" parent="CalculatorButton">
+        <item name="android:background">@drawable/btn_operator_bg</item>
+        <item name="android:textColor">@color/btn_operator_text</item>
+    </style>
+
+    <style name="CalculatorButton.Equal" parent="CalculatorButton">
+        <item name="android:background">@drawable/btn_equal_bg</item>
+        <item name="android:textColor">@color/btn_equal_text</item>
+    </style>
+
+    <style name="CalculatorButton.Scientific" parent="CalculatorButton">
+        <item name="android:background">@drawable/btn_scientific_bg</item>
+        <item name="android:textColor">@color/btn_scientific_text</item>
+        <item name="android:textSize">@dimen/btn_scientific_text_size</item>
+        <item name="android:minWidth">@dimen/btn_capsule_min_width</item>
+        <item name="android:minHeight">@dimen/btn_capsule_height</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="ExpressionText">
+        <item name="android:textSize">@dimen/expression_text_size</item>
+        <item name="android:textColor">@color/expression_text</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="ResultText">
+        <item name="android:textSize">@dimen/result_text_size</item>
+        <item name="android:textColor">@color/result_text</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Bottom Sheet -->
+    <style name="HistoryBottomSheet" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+</resources>
